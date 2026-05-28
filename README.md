@@ -6,6 +6,15 @@ The project was built as a React mini project to practice core React concepts in
 
 ---
 
+# 🌐 Live Demo
+
+🚀 Deployed Project Link:
+
+[MovieNet Live Demo](https://movie-net-khaki.vercel.app/)
+
+---
+
+
 # 🚀 Features
 
 ## ✅ Core Features
