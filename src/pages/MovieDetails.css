@@ -1,0 +1,106 @@
+.movie-details-page {
+  min-height: 100vh;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 40px;
+}
+
+.movie-details-card {
+  background-color: white;
+
+  width: 600px;
+
+  padding: 40px;
+
+  border-radius: 14px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.movie-details-card h1 {
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.movie-details-card p {
+  margin-bottom: 14px;
+
+  color: #4b5563;
+
+  font-size: 18px;
+}
+
+.description {
+  margin-top: 20px;
+  line-height: 1.7;
+}
+
+.details-buttons {
+  margin-top: 30px;
+
+  display: flex;
+  gap: 16px;
+}
+
+.save-btn,
+.back-btn {
+  padding: 12px 20px;
+
+  border: none;
+  border-radius: 8px;
+
+  color: white;
+
+  cursor: pointer;
+
+  font-size: 16px;
+}
+
+.save-btn {
+  background-color: #dc2626;
+}
+
+.back-btn {
+  background-color: #111827;
+}
+
+.not-found {
+  text-align: center;
+  padding: 60px;
+}
+
+.not-found button {
+  margin-top: 20px;
+
+  padding: 12px 20px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: #111827;
+
+  color: white;
+
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+  .movie-details-card {
+    width: 100%;
+  }
+
+  .details-buttons {
+    flex-direction: column;
+  }
+
+  .save-btn,
+  .back-btn {
+    width: 100%;
+  }
+
+}

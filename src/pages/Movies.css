@@ -1,0 +1,100 @@
+.movies-page {
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.movies-page h1 {
+  margin-bottom: 30px;
+  color: #111827;
+}
+
+.top-controls {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.top-controls input,
+.top-controls select {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+
+  font-size: 16px;
+}
+
+.top-controls button {
+  padding: 12px 18px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: #111827;
+  color: white;
+
+  cursor: pointer;
+}
+
+.results {
+  margin-bottom: 20px;
+  color: #4b5563;
+}
+
+.movies-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(250px, 1fr));
+
+  gap: 24px;
+}
+
+.loader-container {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 80px;
+}
+
+.loader {
+  width: 60px;
+  height: 60px;
+
+  border: 6px solid #d1d5db;
+
+  border-top: 6px solid #111827;
+
+  border-radius: 50%;
+
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .top-controls {
+    flex-direction: column;
+  }
+
+  .top-controls input,
+  .top-controls select,
+  .top-controls button {
+    width: 100%;
+  }
+
+}

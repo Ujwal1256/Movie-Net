@@ -1,0 +1,66 @@
+.movie-card {
+  background-color: white;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  transition: 0.3s;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.movie-card h2 {
+  margin-bottom: 12px;
+  color: #111827;
+}
+
+.movie-card p {
+  margin-bottom: 10px;
+  color: #4b5563;
+}
+
+.details-btn {
+  margin-top: 10px;
+
+  padding: 10px 18px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: #111827;
+  color: white;
+
+  cursor: pointer;
+}
+
+.details-btn:hover {
+  background-color: #1f2937;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.save-btn {
+  padding: 10px 18px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: #dc2626;
+  color: white;
+
+  cursor: pointer;
+}
+
+.save-btn:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
